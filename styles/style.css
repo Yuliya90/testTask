@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #1d1d1b;
+}
+
+.main {
+    position: absolute;
+    background: url(../img/deer2.png) 0 0 no-repeat;
+    background-size: cover;
+    z-index: 1;
+    min-width: 100%;
+}
+
+#video-bg {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header {
+    font-family: Web font;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 30px;
+    padding-right: 33px;
+    color: #1d1d1b;
+    padding-right: 5px;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: inherit;
+    border: 1px solid transparent;
+    padding: 6px 15px;
+    border-radius: 8px;
+    border-color: #c7af8a;
+}
+
+.button:hover {
+    background-color: #fbd407;
+    cursor: pointer;
+}
+
+.header-contacts_prise,
+.header-contacts_events,
+.header-contacts_contact {
+    padding: 10px;
+}
+
+.txt {
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+@font-face {
+    font-family: 'Web font';
+    src: url('../fonts/bebas_neue_book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.select {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    margin-left: 60px;
+    z-index: 5;
+}
+
+#nc:hover~.select {
+    display: flex;
+    color: red;
+}
+
+.dscr {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.txt-dscr {
+    color: #c7af8a;
+    font-family: Arkhip;
+    display: -webkit-inline-box;
+}
+
+.frame {
+    left: 300px;
+}
+
+.txt2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.txt1,
+.txt3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Arkhip';
+    src: url('../fonts/d9464-arkhip_font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.txt1 {
+    position: absolute;
+    bottom: 180px;
+
+}
+
+.txt2 {
+    width: 140px;
+}
+
+.txt3 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.text-dscr {
+    margin-top: 30px;
+}
+
+.all {
+    align-self: center;
+}
+
+.bottom_button {
+    color: #333333;
+    background-color: #fbd407;
+    border: none;
+    width: 150px;
+    height: 35px;
+    margin-top: 35px;
+    border-radius: 3px;
+}
+
+.bottom {
+    display: inline-flex;
+    padding-left: 400px;
+}
+
+.text_bottom {
+    font-family: Web font;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d1d1b;
+    padding-top: 40px;
+}
+
+.arrival-txt,
+.departure-txt,
+.guests-txt {
+    font-size: 10px;
+    display: flow-root;
+    text-align: center;
+}
+
+.arrival {
+    height: 35px;
+    width: 150px;
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+.departure {
+    height: 35px;
+    width: 150px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 35px;
+    border-radius: 3px;
+}
+
+.guests {
+    height: 35px;
+    width: 80px;
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+
+.futer {
+    height: 100px;
+    margin-top: 30px;
+}
+
+.imgs {
+    display: flex;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.dateout,
+.datein {
+    color: #878282;
+}
+
+.number {
+    height: 20px;
+    width: 54px;
+    border: none;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+}
